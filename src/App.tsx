@@ -43,6 +43,7 @@ function App() {
     <>
       <GlobalStyle />
       <div className="container">
+        <h1>Redux</h1>
         <Header favoritos={favoritos} itensNoCarrinho={carrinho} />
         <Produtos
           produtos={produtos}
